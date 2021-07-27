@@ -14,6 +14,8 @@
         "php": "^7.4 || ^8.0",
         "ext-json": "*",
         "ext-pdo": "*",
+        "bshaffer/oauth2-server-httpfoundation-bridge": "^1.5",
+        "bshaffer/oauth2-server-php": "^1.11",
         "cakephp/chronos": "^2",
         "cakephp/database": "^4",
         "cakephp/validation": "^4.2",
@@ -31,8 +33,10 @@
         "symfony/cache": "^5.3",
         "symfony/console": "^5",
         "symfony/polyfill-uuid": "^1.22",
+        "symfony/psr-http-message-bridge": "^2.1",
         "symfony/yaml": "^5.2",
-        "tuupola/slim-basic-auth": "^3.3"
+        "tuupola/slim-basic-auth": "^3.3",
+        "tuupola/slim-jwt-auth": "^3.5"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3",
